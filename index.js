@@ -7,6 +7,10 @@ const orders = [
   { amount: 325 }
 ];
 
+const totalAmount = orders.reduce((acc, value) => acc + value.amount, 0)
+console.log(totalAmount);
+
+
 
 
 
@@ -36,7 +40,8 @@ console.log(filtered);
 // EX 4
 const friends = ["rika", "jenna", "bleda", "oliver", "itamar"];
 
-const newFriends = friends.filter(name => name.includes('ka'))
+const newFriends = []
+newFriends.push(friends.filter(name => name.includes('ka'))[0] + friends.filter(name => name.includes('ka')).slice(1))
 
 console.log(newFriends);
 
