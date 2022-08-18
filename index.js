@@ -30,4 +30,27 @@ console.log(filtered);
 // filterEvens([1, 2, 3, 11, 12, 13]);
 //returns [2,12]
 // filterEvens([22, 2, 31, 110, 6, 13]);
- //returns [22,2,110,6]
+//returns [22,2,110,6]
+
+
+// EX 4
+const friends = ["rika", "jenna", "bleda", "oliver", "itamar"];
+
+const newFriends = friends.filter(name => name.includes('ka'))
+
+console.log(newFriends);
+
+
+// console.log(filterItems(friends, 'ka'));
+// ["Rika"];
+// console.log(filterItems(friends, 'e'));
+// ["Jenna", "Bleda", "Oliver"];
+
+//  EX 5
+
+function sum(arr) {
+  return arr.reduce((acc, numb) => acc + numb)
+}
+
+console.log(sum([1, 2, 3, 4, 5]));; //returns 15
+console.log(sum([6, 7, 7])); //returns 20
