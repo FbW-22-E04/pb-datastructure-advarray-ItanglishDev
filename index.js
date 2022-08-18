@@ -40,8 +40,7 @@ console.log(filtered);
 // EX 4
 const friends = ["rika", "jenna", "bleda", "oliver", "itamar"];
 
-const newFriends = []
-newFriends.push(friends.filter(name => name.includes('ka'))[0] + friends.filter(name => name.includes('ka')).slice(1))
+const newFriends = friends.filter(name => name.includes('ka'))
 
 console.log(newFriends);
 
@@ -63,5 +62,5 @@ console.log(sum([6, 7, 7])); //returns 20
 // EX 6
 
 
-const squareOfNumbers = arrayOfNumbers.map(item => item * item)
-console.log(squareOfNumbers);
+
+console.log(squareOfNumbers = arrayOfNumbers.map(item => item * item));
