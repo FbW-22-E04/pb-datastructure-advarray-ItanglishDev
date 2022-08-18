@@ -54,3 +54,9 @@ function sum(arr) {
 
 console.log(sum([1, 2, 3, 4, 5]));; //returns 15
 console.log(sum([6, 7, 7])); //returns 20
+
+// EX 6
+
+
+const squareOfNumbers = arrayOfNumbers.map(item => item * item)
+console.log(squareOfNumbers);
