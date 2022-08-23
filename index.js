@@ -61,6 +61,4 @@ console.log(sum([6, 7, 7])); //returns 20
 
 // EX 6
 
-
-
 console.log(squareOfNumbers = arrayOfNumbers.map(item => item * item));
